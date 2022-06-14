@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Product Page</title>
+		<meta charset="UTF-8">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="icon" type="image/svg+xml" href="img/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.min.css?v=1.0.1">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;0,600;0,700;1,900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+<div class="wrapper">
+    <main class="page">
+        <section class="product">
+            <div class="header__wrapper">
+                <div class="container">
+                    <header class="header">
+	<ul class="header__menu-burger">
+		<li><a href="shop.html">SHOP</a></li>
+		<li><a href="sunday-show.html">PODCASTS</a></li>
+		<li class="menu-trigger"><p>ABOUT</p></li>
+	</ul>
+	<div class="icon-menu"><span></span>
+	</div>
+	<ul class="header__menu">
+		<li><a href="shop.html" class="header__menu-link header__mobile-link">Shop</a></li>
+		<li><a href="sunday-show.html" class="header__menu-link header__mobile-link">Podcast</a></li>
+		<li><a href="personal-info.html" class="header__menu-link header__mobile-link">Account</a></li>
+		<li><a href="about-us.html" class="header__menu-link">Who we are</a></li>
+		<li><a href="#" class="header__menu-link">Protocols</a></li>
+		<li><a href="contact-us.html" class="header__menu-link">Contact us</a></li>
+		<li><a href="faq.html" class="header__menu-link">FAQ</a></li>
+		<div class="menu-trigger-close"></div>
+		<div class="header__menu-privacy-links-wrapper">
+			<div class="header__menu-privacy-links">
+				<a href="">Privacy Policy</a>
+				<a href="">Refund Policy</a>
+				<a href="">Terms of service</a>
+			</div>
+		</div>
+	</ul> 
+	<a href="index.html" class="header__logo">
+		<img src="img/logo.svg" alt="logo">
+	</a>
+	<ul class="header__account">
+		<li class="account-link"><a href="personal-info.html" class="header__menu-link account-link">Account</a></li>
+		<li><a href="#" class="header__menu-link"><img src="img/search.svg" alt=""></a></li>
+		<li><a href="#card-modal" class="main-card-modal header__menu-link" data-effect="mfp-move-horizontal mfp-bag"><img src="img/bag.svg" alt=""></a></li>
+	</ul>
+</header>
+<div id="card-modal" class="mfp-hide bag-modal">
+    <div class="bag-modal__title">
+        <a class="popup-modal-dismiss close testimonials__modal-close" href="#">
+            <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle cx="26" cy="26" r="25.5" stroke="#56685F" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M33.6802 19.3352C33.7468 19.2685 33.7997 19.1894 33.8358 19.1022C33.8719 19.0151 33.8905 18.9217 33.8905 18.8274C33.8905 18.7331 33.8719 18.6397 33.8358 18.5526C33.7997 18.4654 33.7468 18.3863 33.6802 18.3196C33.6135 18.2529 33.5343 18.2 33.4472 18.1639C33.36 18.1278 33.2667 18.1093 33.1723 18.1093C33.078 18.1093 32.9847 18.1278 32.8975 18.1639C32.8104 18.2 32.7312 18.2529 32.6645 18.3196L25.9999 24.9856L19.3353 18.3196C19.2686 18.2529 19.1895 18.2 19.1023 18.1639C19.0152 18.1278 18.9218 18.1093 18.8275 18.1093C18.7332 18.1093 18.6398 18.1278 18.5527 18.1639C18.4656 18.2 18.3864 18.2529 18.3197 18.3196C18.253 18.3863 18.2001 18.4654 18.164 18.5526C18.128 18.6397 18.1094 18.7331 18.1094 18.8274C18.1094 18.9217 18.128 19.0151 18.164 19.1022C18.2001 19.1894 18.253 19.2685 18.3197 19.3352L24.9858 25.9998L18.3197 32.6644C18.185 32.7991 18.1094 32.9818 18.1094 33.1722C18.1094 33.3627 18.185 33.5454 18.3197 33.68C18.4544 33.8147 18.6371 33.8904 18.8275 33.8904C19.018 33.8904 19.2007 33.8147 19.3353 33.68L25.9999 27.014L32.6645 33.68C32.7992 33.8147 32.9819 33.8904 33.1723 33.8904C33.3628 33.8904 33.5455 33.8147 33.6802 33.68C33.8148 33.5454 33.8905 33.3627 33.8905 33.1722C33.8905 32.9818 33.8148 32.7991 33.6802 32.6644L27.0141 25.9998L33.6802 19.3352V19.3352Z"
+                    fill="#56685F" />
+            </svg>
+        </a>
+        <h2>Shopping cart</h2>
+        <img src="img/bag.svg" alt="">
+    </div>
+    <div class="bag-modal__products">
+        <div class="bag-modal__products-title">
+            <h4>Product</h4>
+            <h4></h4>
+            <h4>Quantity</h4>
+            <h4>Price</h4>
+        </div>
+        <div class="bag-modal__products-item-wrapper">
+            <div class="bag-modal__products-item">
+                <div class="bag-modal__item-image">
+                    <img src="img/say-image1.png" alt="">
+                </div>
+                <p>Extra Strenght Vitality Capsules</p>
+                <p>1</p>
+                <p>$37,24</p>
+            </div>
+            <div class="bag-modal__products-item">
+                <div class="bag-modal__item-image secound-item">
+                    <img src="img/say-image2.png" alt="">
+                </div>
+                <p>Regular Strenght Vitality Capsules</p>
+                <p>2</p>
+                <p>$21,45</p>
+            </div>
+            <div class="bag-modal__products-item">
+                <div class="bag-modal__item-image">
+                    <img src="img/say-image1.png" alt="">
+                </div>
+                <p>Extra Strenght Vitality Capsules</p>
+                <p>1</p>
+                <p>$37,24</p>
+            </div>
+            <div class="bag-modal__products-item">
+                <div class="bag-modal__item-image secound-item">
+                    <img src="img/say-image2.png" alt="">
+                </div>
+                <p>Regular Strenght Vitality Capsules</p>
+                <p>2</p>
+                <p>$21,45</p>
+            </div>
+            <div class="bag-modal__products-item">
+                <div class="bag-modal__item-image">
+                    <img src="img/say-image1.png" alt="">
+                </div>
+                <p>Extra Strenght Vitality Capsules</p>
+                <p>1</p>
+                <p>$37,24</p>
+            </div>
+            <div class="bag-modal__products-item">
+                <div class="bag-modal__item-image secound-item">
+                    <img src="img/say-image2.png" alt="">
+                </div>
+                <p>Regular Strenght Vitality Capsules</p>
+                <p>2</p>
+                <p>$21,45</p>
+            </div>
+            <div class="bag-modal__products-item">
+                <div class="bag-modal__item-image">
+                    <img src="img/say-image1.png" alt="">
+                </div>
+                <p>Extra Strenght Vitality Capsules</p>
+                <p>1</p>
+                <p>$37,24</p>
+            </div>
+            <div class="bag-modal__products-item">
+                <div class="bag-modal__item-image secound-item">
+                    <img src="img/say-image2.png" alt="">
+                </div>
+                <p>Regular Strenght Vitality Capsules</p>
+                <p>2</p>
+                <p>$21,45</p>
+            </div>
+        </div>
+    </div>
+    <div class="bag-modal__taxes">
+        <p>Taxes</p>
+        <p>$1,00</p>
+    </div>
+    <div class="bag-modal__price">
+        <p>Total price</p>
+        <p>$81,14</p>
+    </div>
+    <div class="bag-modal__button-wrapper">
+        <a href="shop.html" class="button bag-modal__button-brown">Continue shopping</a>
+        <a href="" class="button bag-modal__button">Submit</a>
+    </div>
+</div>
+                </div>
+            </div>
+            <div class="product__content">
+                <div class="product__hero-slider swiper _swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/say-image1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/say-image2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/say-image1.png" alt=""></div>
+                    </div>
+
+                    <div class="swiper-nav">
+                        <div class="swiper-button-prev product__prev"><img src="img/arrow-right.svg" alt=""></div>
+                        <div class="swiper-pagination product__pagination"></div>
+                        <div class="swiper-button-next product__next"><img src="img/arrow-right.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="product__right">
+                    <h3>$36</h3>
+                    <h2>Extra Strength</h2>
+                    <h4>Vitality Capsules</h4>
+                    <div class="product__stars-wrapper">
+                        <div class="product__stars">
+                            <img src="img/icons/star-on.svg" alt="">
+                            <img src="img/icons/star-on.svg" alt="">
+                            <img src="img/icons/star-on.svg" alt="">
+                            <img src="img/icons/star-on.svg" alt="">
+                            <img src="img/icons/star-on.svg" alt="">
+                        </div>
+                        <div class="product__views">
+                            <p>237 reviews</p>
+                        </div>
+                    </div>
+                    <div class="product__about">
+                        <div class="product__about-item">
+                            <img src="img/about-item1.png" alt="">
+                            <p>90 capsules</p>
+                        </div>
+                        <div class="product__about-item">
+                            <img src="img/about-item2.png" alt="">
+                            <p>100% Natural</p>
+                        </div>
+                        <div class="product__about-item">
+                            <img src="img/about-item3.png" alt="">
+                            <p>Extra Strenght</p>
+                        </div>
+                    </div>
+                    <p>Vitality Capsules are the go-to supplement in most people’s medicine cabinets to help
+                        them maintain a healthy, active life.</p>
+                    <div class="product__button-wrapper">
+                        <div class="product__count">
+                            <p>-</p>
+                            <p class="product__number">2</p>
+                            <p>+</p>
+                        </div>
+                        <a href="" class="button product__button">
+                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.3888 6.66669V5.0278C14.3888 4.51711 14.2882 4.01141 14.0928 3.53959C13.8974 3.06777 13.6109 2.63906 13.2498 2.27795C12.8887 1.91683 12.46 1.63037 11.9882 1.43494C11.5163 1.2395 11.0106 1.13892 10.4999 1.13892C9.98925 1.13892 9.48355 1.2395 9.01173 1.43494C8.53991 1.63037 8.1112 1.91683 7.75009 2.27795C7.38897 2.63906 7.10252 3.06777 6.90708 3.53959C6.71165 4.01141 6.61106 4.51711 6.61106 5.0278V8.91669C6.61106 9.06404 6.66959 9.20534 6.77377 9.30953C6.87796 9.41372 7.01927 9.47225 7.16661 9.47225C7.31395 9.47225 7.45526 9.41372 7.55945 9.30953C7.66364 9.20534 7.72217 9.06404 7.72217 8.91669V7.7778H12.1666V6.66669H7.72217V5.0278C7.72217 4.29109 8.01482 3.58455 8.53576 3.06362C9.05669 2.54269 9.76323 2.25003 10.4999 2.25003C11.2367 2.25003 11.9432 2.54269 12.4641 3.06362C12.9851 3.58455 13.2777 4.29109 13.2777 5.0278V8.88892C13.2777 9.03626 13.3363 9.17757 13.4404 9.28175C13.5446 9.38594 13.6859 9.44447 13.8333 9.44447C13.9806 9.44447 14.1219 9.38594 14.2261 9.28175C14.3303 9.17757 14.3888 9.03626 14.3888 8.88892V7.7778H17.1666V17.7778H3.83328V7.7778H5.49995V6.66669H2.72217V17.8278C2.72217 18.1092 2.83396 18.3791 3.03296 18.5781C3.23196 18.7771 3.50185 18.8889 3.78328 18.8889H17.2166C17.498 18.8889 17.7679 18.7771 17.9669 18.5781C18.1659 18.3791 18.2777 18.1092 18.2777 17.8278V6.66669H14.3888Z"
+                                    fill="#FEFEFE" />
+                            </svg>
+                            <p>Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="benefits">
+            <div class="container">
+                <div class="benefits__content">
+                    <div class="benefits__item">
+                        <img src="img/benefits-image1.png" alt="">
+                        <p>100% natural</p>
+                        <p>ingredients</p>
+                    </div>
+                    <div class="benefits__item">
+                        <img src="img/benefits-image2.png" alt="">
+                        <p>Multi level</p>
+                        <p>testing process</p>
+                    </div>
+                    <div class="benefits__item">
+                        <img src="img/benefits-image3.png" alt="">
+                        <p>Exclusive formula</p>
+                        <p>by Dr. Daniels</p>
+                    </div>
+                    <div class="benefits__item">
+                        <img src="img/benefits-image4.png" alt="">
+                        <p>Best results</p>
+                        <p>guaranteed</p>
+                    </div>
+                    <div class="benefits__item">
+                        <img src="img/benefits-image5.png" alt="">
+                        <p>Safe for</p>
+                        <p>children</p>
+                    </div>
+                    <div class="benefits__item">
+                        <img src="img/benefits-image6.png" alt="">
+                        <p>Made in the</p>
+                        <p>USA</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="say-no">
+            <div class="container">
+                <div class="say-no__content">
+                    <div class="say-no__left">
+                        <h2>Say no to <b>kill pills</b></h2>
+                        <div class="say-no__text">
+                            <p>Antibiotics have a track record of killing humans slowly. It seems like there’s no way to
+                                avoid them if you go the traditional route of visiting a hospital for your treatment.
+
+                                <p>The animals whose meat we eat are treated with antibiotics, which infuse into our
+                                    diets. You
+                                    could go vegan or choose to raise your own animals, but that still does not address
+                                    the
+                                    giant problem at hand.</p>
+
+                                <p>Natural remedies such as the one Vitality Cycles provides are more effective in
+                                    treating
+                                    illnesses because they bolster your body’s immune system, strengthen your gut biome,
+                                    improve
+                                    your metabolism, empower your nervous system, and provide you with the energy and
+                                    natural
+                                    resources required to battle these diseases.</p>
+                        </div>
+                    </div>
+                    <div class="say-no__right">
+                        <img src="img/say-no.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="vitality">
+            <div class="container">
+                <div class="vitality__content">
+                    <div class="vitality__left">
+                        <img src="img/vitality-image.png" alt="">
+                    </div>
+                    <div class="vitality__right">
+                        <h2>The benefits of <b>vitality capsules</b></h2>
+                        <div class="vitality__text">
+                            <p>There is a great thought and research put into the creation of our natural capsules. Each
+                                ingredient is completely organic, all-natural, and meticulously tested for its quality
+                                before it goes into the product.</p>
+
+                            <p>The result?
+                                You achieve three bowel movements per day. With three bowel movements, your body becomes
+                                free of toxicity. You are left feeling energized. With reduced toxicity and more energy
+                                levels, you can feel happy, relaxed, and healthy.</p>
+
+                            <p>You can include these capsules in your daily routine safely and treat a number of
+                                ailments such as constipation, candida, weight loss, fatigue, and toxicity build-up.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ingridients">
+            <div class="container">
+                <div class="ingridients__content">
+                    <div class="ingridients__swiper swiper _swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="ingridients__slide-content">
+                                    <div class="ingridients__slide-left">
+                                        <h3>Ingredients</h3>
+                                        <h2>Cayenne Pepper</h2>
+                                        <p>Cayenne Pepper Is a strong stimulant that amplifies the other ingredients in
+                                            vitality capsules and makes the onset of action more prompt. It also
+                                            increases energy by enhancing and supporting the circulation.
+                                            anti-inflammatory agent that enhances healing and increases circulation as
+                                            well.</p>
+                                    </div>
+                                    <div class="ingridients__slide-right">
+                                        <div class="ingridients__slide-image">
+                                            <img src="img/slide-bg.svg" alt="" class="ingridients__slide-bg">
+                                            <img src="img/ingridients-slide1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ingridients__slide-content">
+                                    <div class="ingridients__slide-left">
+                                        <h3>Ingredients</h3>
+                                        <h2>Garlic</h2>
+                                        <p>Perhaps the most important feature of garlic is that it contains many
+                                            nutrients and almost no calories. It’s an effective ingredient in remedies
+                                            that battle common colds and sicknesses of the immune system. The active
+                                            compounds in garlic prevent high blood pressure. Garlic is effective in
+                                            reducing heart diseases by reducing cholesterol levels in the blood. Garlic
+                                            contains antioxidants vital for the prevention of dementia and Alzheimer’s
+                                            disease. Garlic helps you live longer and stronger. It also makes you more
+                                            athletic. If taken in moderation, it detoxifies heavy metals in the body.
+                                            Garlic prevents bone loss and improves bone structure. </p>
+                                    </div>
+                                    <div class="ingridients__slide-right">
+                                        <div class="ingridients__slide-image">
+                                            <img src="img/slide-bg.svg" alt="" class="ingridients__slide-bg">
+                                            <img src="img/ingridients-slide2.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ingridients__slide-content">
+                                    <div class="ingridients__slide-left">
+                                        <h3>Ingredients</h3>
+                                        <h2>Aloe</h2>
+                                        <p>Aloe is known to contain healthful plant compounds that have antioxidant and
+                                            antibacterial properties. Furthermore, aloe helps in accelerating wound
+                                            healing and reduces oral degradation. It also reduces dental plaque. People
+                                            who suffer from canker sores also use aloe to treat their sores. However,
+                                            aloe is most frequently used to treat constipation and help bowel movements
+                                            become more regular. It contains many compounds that improve skin tone and
+                                            prevents wrinkles. It’s commonly used to treat chronic indigestion. Ginger
+                                            is famous for lowering cholesterol levels as well. </p>
+                                    </div>
+                                    <div class="ingridients__slide-right">
+                                        <div class="ingridients__slide-image">
+                                            <img src="img/slide-bg.svg" alt="" class="ingridients__slide-bg">
+                                            <img src="img/ingridients-slide3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ingridients__slide-content">
+                                    <div class="ingridients__slide-left">
+                                        <h3>Ingredients</h3>
+                                        <h2>Clove</h2>
+                                        <p>Cloves kill harmful bacteria like E. coli. It also helps against cancer by
+                                            promoting cell death in cancer cells. Clove is high in antioxidants, which
+                                            improve metabolism and immunity. It contains several important nutrients
+                                            like Vitamin K and Manganese. Clove is known to improve liver health and
+                                            reduce inflammation in the liver. It also treats fatty liver disease. Clove
+                                            regulates blood sugar and aids with diabetes and heart diseases. Regular
+                                            consumption of cloves improves bone structure and health. It’s very
+                                            beneficial for the stomach as it prevents stomach ulcers.</p>
+                                    </div>
+                                    <div class="ingridients__slide-right">
+                                        <div class="ingridients__slide-image">
+                                            <img src="img/slide-bg.svg" alt="" class="ingridients__slide-bg">
+                                            <img src="img/ingridients-slide4.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ingridients__slide-content">
+                                    <div class="ingridients__slide-left">
+                                        <h3>Ingredients</h3>
+                                        <h2>Turmeric</h2>
+                                        <p>Turmeric is a natural anti-inflammatory compound that reduces the risk of
+                                            cancer, heart disease, metabolic syndromes, Alzheimer’s disease, and many
+                                            other degenerative diseases. It improves the antioxidant capacity of the
+                                            body and boosts brain-derived neurotropic factors that promote healthier
+                                            brain function. Turmeric also aids in arthritis pain management. It is also
+                                            a very effective anti-depressant. Turmeric contains curcumin, which helps
+                                            delay aging and fights age-related chronic diseases. </p>
+                                    </div>
+                                    <div class="ingridients__slide-right">
+                                        <div class="ingridients__slide-image">
+                                            <img src="img/slide-bg.svg" alt="" class="ingridients__slide-bg">
+                                            <img src="img/ingridients-slide5.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ingridients__slide-content">
+                                    <div class="ingridients__slide-left">
+                                        <h3>Ingredients</h3>
+                                        <h2>Cascara Sagrada</h2>
+                                        <p>Cascara Sagrada is a common dietary supplement that’s used primarily for
+                                            constipation or for emptying a colon before a colonoscopy. It contains
+                                            chemicals that stimulate your bowels and have a general laxative effect.
+                                            It’s popularly used in detox and cleansing herbal formulas as well. Cascara
+                                            sagrada is believed to prevent gallstones, treat liver problems,
+                                            hemorrhoids, fissures, and even cancer.</p>
+                                    </div>
+                                    <div class="ingridients__slide-right">
+                                        <div class="ingridients__slide-image">
+                                            <img src="img/slide-bg.svg" alt="" class="ingridients__slide-bg">
+                                            <img src="img/ingridients-slide6.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ingridients__slide-content">
+                                    <div class="ingridients__slide-left">
+                                        <h3>Ingredients</h3>
+                                        <h2>Senna</h2>
+                                        <p>Senna is consumed as a tea for weight loss, laxative purposes, and for
+                                            detoxing. It also prevents hemorrhoids and improves your gut health. It
+                                            improves intestinal function and helps in tackling weight loss over a long
+                                            period of time. Over time, aloe also lowers blood sugar levels. </p>
+                                    </div>
+                                    <div class="ingridients__slide-right">
+                                        <div class="ingridients__slide-image">
+                                            <img src="img/slide-bg.svg" alt="" class="ingridients__slide-bg">
+                                            <img src="img/ingridients-slide7.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ingridients__slide-content">
+                                    <div class="ingridients__slide-left">
+                                        <h3>Ingredients</h3>
+                                        <h2>Barberry</h2>
+                                        <p>Rich in nutrients, barberry contains beneficial plant compounds that help in
+                                            battling diabetes, treatment of diarrhea, and protecting against metabolic
+                                            syndrome. Barberry is also amazing for your teeth and oral health. It also
+                                            contains anticancer effects that inhibit enzymes involved in the life cycle
+                                            of cancer cells. Barberry eliminates acne effectively. </p>
+                                    </div>
+                                    <div class="ingridients__slide-right">
+                                        <div class="ingridients__slide-image">
+                                            <img src="img/slide-bg.svg" alt="" class="ingridients__slide-bg">
+                                            <img src="img/ingridients-slide8.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-nav">
+                            <div class="swiper-button-prev ingridients__prev"><img src="img/arrow-right.svg" alt="">
+                            </div>
+                            <div class="swiper-pagination ingridients__pagination"></div>
+                            <div class="swiper-button-next ingridients__next"><img src="img/arrow-right.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="container">
+                <div class="testimonials__title">
+                    <h2>Share your experience</h2>
+                    <a href="#write-modal" class="popup-modal button testimonials__write-button"
+                        data-effect="mfp-move-horizontal">Write a review</a>
+                    <div id="write-modal" class="mfp-hide testimonials__write-modal">
+                        <h2>Submit review</h2>
+                        <fieldset class="rating">
+	<legend class="rating__caption">Самочувствие</legend>
+	<div class="rating__group">
+			<input class="rating__star" type="radio" name="health" value="1" aria-label="Ужасно" checked>
+			<input class="rating__star" type="radio" name="health" value="2" aria-label="Сносно">
+			<input class="rating__star" type="radio" name="health" value="3" aria-label="Нормально">
+			<input class="rating__star" type="radio" name="health" value="4" aria-label="Хорошо">
+			<input class="rating__star" type="radio" name="health" value="5" aria-label="Отлично">
+	</div>
+</fieldset>
+                        <a class="popup-modal-dismiss close testimonials__modal-close" href="#">
+                            <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="26" cy="26" r="25.5" stroke="#56685F" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M33.6802 19.3352C33.7468 19.2685 33.7997 19.1894 33.8358 19.1022C33.8719 19.0151 33.8905 18.9217 33.8905 18.8274C33.8905 18.7331 33.8719 18.6397 33.8358 18.5526C33.7997 18.4654 33.7468 18.3863 33.6802 18.3196C33.6135 18.2529 33.5343 18.2 33.4472 18.1639C33.36 18.1278 33.2667 18.1093 33.1723 18.1093C33.078 18.1093 32.9847 18.1278 32.8975 18.1639C32.8104 18.2 32.7312 18.2529 32.6645 18.3196L25.9999 24.9856L19.3353 18.3196C19.2686 18.2529 19.1895 18.2 19.1023 18.1639C19.0152 18.1278 18.9218 18.1093 18.8275 18.1093C18.7332 18.1093 18.6398 18.1278 18.5527 18.1639C18.4656 18.2 18.3864 18.2529 18.3197 18.3196C18.253 18.3863 18.2001 18.4654 18.164 18.5526C18.128 18.6397 18.1094 18.7331 18.1094 18.8274C18.1094 18.9217 18.128 19.0151 18.164 19.1022C18.2001 19.1894 18.253 19.2685 18.3197 19.3352L24.9858 25.9998L18.3197 32.6644C18.185 32.7991 18.1094 32.9818 18.1094 33.1722C18.1094 33.3627 18.185 33.5454 18.3197 33.68C18.4544 33.8147 18.6371 33.8904 18.8275 33.8904C19.018 33.8904 19.2007 33.8147 19.3353 33.68L25.9999 27.014L32.6645 33.68C32.7992 33.8147 32.9819 33.8904 33.1723 33.8904C33.3628 33.8904 33.5455 33.8147 33.6802 33.68C33.8148 33.5454 33.8905 33.3627 33.8905 33.1722C33.8905 32.9818 33.8148 32.7991 33.6802 32.6644L27.0141 25.9998L33.6802 19.3352V19.3352Z"
+                                    fill="#56685F" />
+                            </svg>
+                        </a>
+                        <div class="input-wrapper form-input-wrapper">
+                            <label class="label">
+                                <input type="name" required="required" class="input">
+                                <span class="placeholder white-placeholder">Full name</span>
+                            </label>
+                            <label class="label">
+                                <input type="email" required="required" class="input">
+                                <span class="placeholder white-placeholder">Email</span>
+                            </label>
+                            <div class="textarea-wrapper">
+                                <label class="label">
+                                    <textarea type="message" required="required" class="textarea"></textarea>
+                                    <span class="textarea-placeholder white-placeholder">Write your message</span>
+                                </label>
+                            </div>
+                        </div>
+                        <p>*Your email will not be displayed to other users</p>
+                        <div class="testimonials__modal-button-wrapper">
+                            <a href="" class="testimonials__modal-button button">Submit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials__content">
+                    <div class="testimonials__swiper swiper _swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonials__slide-content">
+                                    <div class="testimonials__slide-item">
+                                        <div class="testimonials__rating">
+                                            <h2>Awesome Product!!!</h2>
+                                            <div class="product__stars-wrapper">
+                                                <div class="product__stars">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                </div>
+                                                <div class="product__views">
+                                                    <p>5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials__date">
+                                            <h3>Patricia Fellister</h3>
+                                            <h3>17 January 2022</h3>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                            eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Eu augue ut
+                                            lectus
+                                            arcu bibendum at varius vel pharetra.</p>
+                                    </div>
+                                    <div class="testimonials__slide-item">
+                                        <div class="testimonials__rating">
+                                            <h2>Really love it. Your products help me a lot</h2>
+                                            <div class="product__stars-wrapper">
+                                                <div class="product__stars">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                </div>
+                                                <div class="product__views">
+                                                    <p>5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials__date">
+                                            <h3>Patricia Fellister</h3>
+                                            <h3>17 January 2022</h3>
+                                        </div>
+                                        <p>Diam sollicitudin tempor id eu nisl nunc mi ipsum. Tempor orci eu lobortis
+                                            elementum nibh. At elementum eu facilisis sed odio. Tellus mauris a diam
+                                            maecenas. Quam viverra orci sagittis eu volutpat odio. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonials__slide-content">
+                                    <div class="testimonials__slide-item">
+                                        <div class="testimonials__rating">
+                                            <h2>Awesome Product!!!</h2>
+                                            <div class="product__stars-wrapper">
+                                                <div class="product__stars">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                </div>
+                                                <div class="product__views">
+                                                    <p>5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials__date">
+                                            <h3>Patricia Fellister</h3>
+                                            <h3>17 January 2022</h3>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                            eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Eu augue ut
+                                            lectus
+                                            arcu bibendum at varius vel pharetra.</p>
+                                    </div>
+                                    <div class="testimonials__slide-item">
+                                        <div class="testimonials__rating">
+                                            <h2>Really love it. Your products help me a lot</h2>
+                                            <div class="product__stars-wrapper">
+                                                <div class="product__stars">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                </div>
+                                                <div class="product__views">
+                                                    <p>5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials__date">
+                                            <h3>Patricia Fellister</h3>
+                                            <h3>17 January 2022</h3>
+                                        </div>
+                                        <p>Diam sollicitudin tempor id eu nisl nunc mi ipsum. Tempor orci eu lobortis
+                                            elementum nibh. At elementum eu facilisis sed odio. Tellus mauris a diam
+                                            maecenas. Quam viverra orci sagittis eu volutpat odio. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonials__slide-content">
+                                    <div class="testimonials__slide-item">
+                                        <div class="testimonials__rating">
+                                            <h2>Awesome Product!!!</h2>
+                                            <div class="product__stars-wrapper">
+                                                <div class="product__stars">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                </div>
+                                                <div class="product__views">
+                                                    <p>5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials__date">
+                                            <h3>Patricia Fellister</h3>
+                                            <h3>17 January 2022</h3>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                            eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Eu augue ut
+                                            lectus
+                                            arcu bibendum at varius vel pharetra.</p>
+                                    </div>
+                                    <div class="testimonials__slide-item">
+                                        <div class="testimonials__rating">
+                                            <h2>Really love it. Your products help me a lot</h2>
+                                            <div class="product__stars-wrapper">
+                                                <div class="product__stars">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                </div>
+                                                <div class="product__views">
+                                                    <p>5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials__date">
+                                            <h3>Patricia Fellister</h3>
+                                            <h3>17 January 2022</h3>
+                                        </div>
+                                        <p>Diam sollicitudin tempor id eu nisl nunc mi ipsum. Tempor orci eu lobortis
+                                            elementum nibh. At elementum eu facilisis sed odio. Tellus mauris a diam
+                                            maecenas. Quam viverra orci sagittis eu volutpat odio. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonials__slide-content">
+                                    <div class="testimonials__slide-item">
+                                        <div class="testimonials__rating">
+                                            <h2>Awesome Product!!!</h2>
+                                            <div class="product__stars-wrapper">
+                                                <div class="product__stars">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                </div>
+                                                <div class="product__views">
+                                                    <p>5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials__date">
+                                            <h3>Patricia Fellister</h3>
+                                            <h3>17 January 2022</h3>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                            eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Eu augue ut
+                                            lectus
+                                            arcu bibendum at varius vel pharetra.</p>
+                                    </div>
+                                    <div class="testimonials__slide-item">
+                                        <div class="testimonials__rating">
+                                            <h2>Really love it. Your products help me a lot</h2>
+                                            <div class="product__stars-wrapper">
+                                                <div class="product__stars">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                </div>
+                                                <div class="product__views">
+                                                    <p>5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials__date">
+                                            <h3>Patricia Fellister</h3>
+                                            <h3>17 January 2022</h3>
+                                        </div>
+                                        <p>Diam sollicitudin tempor id eu nisl nunc mi ipsum. Tempor orci eu lobortis
+                                            elementum nibh. At elementum eu facilisis sed odio. Tellus mauris a diam
+                                            maecenas. Quam viverra orci sagittis eu volutpat odio. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonials__slide-content">
+                                    <div class="testimonials__slide-item">
+                                        <div class="testimonials__rating">
+                                            <h2>Awesome Product!!!</h2>
+                                            <div class="product__stars-wrapper">
+                                                <div class="product__stars">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                </div>
+                                                <div class="product__views">
+                                                    <p>5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials__date">
+                                            <h3>Patricia Fellister</h3>
+                                            <h3>17 January 2022</h3>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                            eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Eu augue ut
+                                            lectus
+                                            arcu bibendum at varius vel pharetra.</p>
+                                    </div>
+                                    <div class="testimonials__slide-item">
+                                        <div class="testimonials__rating">
+                                            <h2>Really love it. Your products help me a lot</h2>
+                                            <div class="product__stars-wrapper">
+                                                <div class="product__stars">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                </div>
+                                                <div class="product__views">
+                                                    <p>5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials__date">
+                                            <h3>Patricia Fellister</h3>
+                                            <h3>17 January 2022</h3>
+                                        </div>
+                                        <p>Diam sollicitudin tempor id eu nisl nunc mi ipsum. Tempor orci eu lobortis
+                                            elementum nibh. At elementum eu facilisis sed odio. Tellus mauris a diam
+                                            maecenas. Quam viverra orci sagittis eu volutpat odio. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonials__slide-content">
+                                    <div class="testimonials__slide-item">
+                                        <div class="testimonials__rating">
+                                            <h2>Awesome Product!!!</h2>
+                                            <div class="product__stars-wrapper">
+                                                <div class="product__stars">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                </div>
+                                                <div class="product__views">
+                                                    <p>5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials__date">
+                                            <h3>Patricia Fellister</h3>
+                                            <h3>17 January 2022</h3>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                            eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Eu augue ut
+                                            lectus
+                                            arcu bibendum at varius vel pharetra.</p>
+                                    </div>
+                                    <div class="testimonials__slide-item">
+                                        <div class="testimonials__rating">
+                                            <h2>Really love it. Your products help me a lot</h2>
+                                            <div class="product__stars-wrapper">
+                                                <div class="product__stars">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                </div>
+                                                <div class="product__views">
+                                                    <p>5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials__date">
+                                            <h3>Patricia Fellister</h3>
+                                            <h3>17 January 2022</h3>
+                                        </div>
+                                        <p>Diam sollicitudin tempor id eu nisl nunc mi ipsum. Tempor orci eu lobortis
+                                            elementum nibh. At elementum eu facilisis sed odio. Tellus mauris a diam
+                                            maecenas. Quam viverra orci sagittis eu volutpat odio. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonials__slide-content">
+                                    <div class="testimonials__slide-item">
+                                        <div class="testimonials__rating">
+                                            <h2>Awesome Product!!!</h2>
+                                            <div class="product__stars-wrapper">
+                                                <div class="product__stars">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                </div>
+                                                <div class="product__views">
+                                                    <p>5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials__date">
+                                            <h3>Patricia Fellister</h3>
+                                            <h3>17 January 2022</h3>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                            eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Eu augue ut
+                                            lectus
+                                            arcu bibendum at varius vel pharetra.</p>
+                                    </div>
+                                    <div class="testimonials__slide-item">
+                                        <div class="testimonials__rating">
+                                            <h2>Really love it. Your products help me a lot</h2>
+                                            <div class="product__stars-wrapper">
+                                                <div class="product__stars">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                    <img src="img/icons/star-on.svg" alt="">
+                                                </div>
+                                                <div class="product__views">
+                                                    <p>5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials__date">
+                                            <h3>Patricia Fellister</h3>
+                                            <h3>17 January 2022</h3>
+                                        </div>
+                                        <p>Diam sollicitudin tempor id eu nisl nunc mi ipsum. Tempor orci eu lobortis
+                                            elementum nibh. At elementum eu facilisis sed odio. Tellus mauris a diam
+                                            maecenas. Quam viverra orci sagittis eu volutpat odio. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#view-all-modal" class="view-modal testimonials__view-link testimonials__view-link-mobile" data-effect="mfp-move-horizontal">View all</a>
+                    <div class="swiper-nav-wrapper">
+                        <div class="swiper-nav">
+                            <div class="swiper-button-prev testimonials__prev"><img src="img/arrow-right.svg" alt=""></div>
+                            <div class="swiper-pagination testimonials-pagination"></div>
+                            <div class="swiper-button-next testimonials__next"><img src="img/arrow-right.svg" alt=""></div>
+                            <a href="#view-all-modal" class="view-modal testimonials__view-link" data-effect="mfp-move-horizontal">View all</a>
+                        </div>
+                    </div>
+                    <div class="testimonials__button-wrapper">
+                        <a href="#write-modal"
+                            class="popup-modal button testimonials__write-button testimonials__write-button-mobile"
+                            data-effect="mfp-move-horizontal">Write a
+                            review</a>
+                    </div>
+                    <div id="view-all-modal" class="mfp-hide testimonials__write-modal testimonials__view-modal">
+                        <h2>All comments</h2>
+                        <div class="testimonials__comments">
+                            <div class="testimonials__slide-item">
+                                <div class="testimonials__rating">
+                                    <h2>Awesome Product!!!</h2>
+                                    <div class="product__stars-wrapper">
+                                        <div class="product__stars">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                        </div>
+                                        <div class="product__views">
+                                            <p>5/5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonials__date">
+                                    <h3>Patricia Fellister</h3>
+                                    <h3>17 January 2022</h3>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Eu augue ut
+                                    lectus
+                                    arcu bibendum at varius vel pharetra.</p>
+                            </div>
+                            <div class="testimonials__slide-item">
+                                <div class="testimonials__rating">
+                                    <h2>Really love it. Your products help me a lot</h2>
+                                    <div class="product__stars-wrapper">
+                                        <div class="product__stars">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                        </div>
+                                        <div class="product__views">
+                                            <p>5/5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonials__date">
+                                    <h3>Patricia Fellister</h3>
+                                    <h3>17 January 2022</h3>
+                                </div>
+                                <p>Diam sollicitudin tempor id eu nisl nunc mi ipsum. Tempor orci eu lobortis
+                                    elementum nibh. At elementum eu facilisis sed odio. Tellus mauris a diam
+                                    maecenas. Quam viverra orci sagittis eu volutpat odio. </p>
+                            </div>
+                            <div class="testimonials__slide-item">
+                                <div class="testimonials__rating">
+                                    <h2>Awesome Product!!!</h2>
+                                    <div class="product__stars-wrapper">
+                                        <div class="product__stars">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                        </div>
+                                        <div class="product__views">
+                                            <p>5/5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonials__date">
+                                    <h3>Patricia Fellister</h3>
+                                    <h3>17 January 2022</h3>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Eu augue ut
+                                    lectus
+                                    arcu bibendum at varius vel pharetra.</p>
+                            </div>
+                            <div class="testimonials__slide-item">
+                                <div class="testimonials__rating">
+                                    <h2>Really love it. Your products help me a lot</h2>
+                                    <div class="product__stars-wrapper">
+                                        <div class="product__stars">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                        </div>
+                                        <div class="product__views">
+                                            <p>5/5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonials__date">
+                                    <h3>Patricia Fellister</h3>
+                                    <h3>17 January 2022</h3>
+                                </div>
+                                <p>Diam sollicitudin tempor id eu nisl nunc mi ipsum. Tempor orci eu lobortis
+                                    elementum nibh. At elementum eu facilisis sed odio. Tellus mauris a diam
+                                    maecenas. Quam viverra orci sagittis eu volutpat odio. </p>
+                            </div>
+                            <div class="testimonials__slide-item">
+                                <div class="testimonials__rating">
+                                    <h2>Awesome Product!!!</h2>
+                                    <div class="product__stars-wrapper">
+                                        <div class="product__stars">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                        </div>
+                                        <div class="product__views">
+                                            <p>5/5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonials__date">
+                                    <h3>Patricia Fellister</h3>
+                                    <h3>17 January 2022</h3>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Eu augue ut
+                                    lectus
+                                    arcu bibendum at varius vel pharetra.</p>
+                            </div>
+                            <div class="testimonials__slide-item">
+                                <div class="testimonials__rating">
+                                    <h2>Really love it. Your products help me a lot</h2>
+                                    <div class="product__stars-wrapper">
+                                        <div class="product__stars">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                            <img src="img/icons/star-on.svg" alt="">
+                                        </div>
+                                        <div class="product__views">
+                                            <p>5/5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonials__date">
+                                    <h3>Patricia Fellister</h3>
+                                    <h3>17 January 2022</h3>
+                                </div>
+                                <p>Diam sollicitudin tempor id eu nisl nunc mi ipsum. Tempor orci eu lobortis
+                                    elementum nibh. At elementum eu facilisis sed odio. Tellus mauris a diam
+                                    maecenas. Quam viverra orci sagittis eu volutpat odio. </p>
+                            </div>
+                        </div>
+                        <a class="popup-modal-dismiss close testimonials__modal-close" href="#">
+                            <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="26" cy="26" r="25.5" stroke="#56685F" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M33.6802 19.3352C33.7468 19.2685 33.7997 19.1894 33.8358 19.1022C33.8719 19.0151 33.8905 18.9217 33.8905 18.8274C33.8905 18.7331 33.8719 18.6397 33.8358 18.5526C33.7997 18.4654 33.7468 18.3863 33.6802 18.3196C33.6135 18.2529 33.5343 18.2 33.4472 18.1639C33.36 18.1278 33.2667 18.1093 33.1723 18.1093C33.078 18.1093 32.9847 18.1278 32.8975 18.1639C32.8104 18.2 32.7312 18.2529 32.6645 18.3196L25.9999 24.9856L19.3353 18.3196C19.2686 18.2529 19.1895 18.2 19.1023 18.1639C19.0152 18.1278 18.9218 18.1093 18.8275 18.1093C18.7332 18.1093 18.6398 18.1278 18.5527 18.1639C18.4656 18.2 18.3864 18.2529 18.3197 18.3196C18.253 18.3863 18.2001 18.4654 18.164 18.5526C18.128 18.6397 18.1094 18.7331 18.1094 18.8274C18.1094 18.9217 18.128 19.0151 18.164 19.1022C18.2001 19.1894 18.253 19.2685 18.3197 19.3352L24.9858 25.9998L18.3197 32.6644C18.185 32.7991 18.1094 32.9818 18.1094 33.1722C18.1094 33.3627 18.185 33.5454 18.3197 33.68C18.4544 33.8147 18.6371 33.8904 18.8275 33.8904C19.018 33.8904 19.2007 33.8147 19.3353 33.68L25.9999 27.014L32.6645 33.68C32.7992 33.8147 32.9819 33.8904 33.1723 33.8904C33.3628 33.8904 33.5455 33.8147 33.6802 33.68C33.8148 33.5454 33.8905 33.3627 33.8905 33.1722C33.8905 32.9818 33.8148 32.7991 33.6802 32.6644L27.0141 25.9998L33.6802 19.3352V19.3352Z"
+                                    fill="#56685F" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="best-seller best-seller-product">
+            <div class="container">
+                <h2>You may also like</h2>
+                <div class="best-seller__content">
+                    <div class="best-seller__item">
+                        <a href="" class="best-seller__bag"><img src="img/shop-bag.svg" alt=""></a>
+                        <img src="img/product2.png" alt="">
+                        <div class="best-seller__price">
+                            <p>Extra Strength</p>
+                            <p>$36,95</p>
+                        </div>
+                        <p>Vitality Capsules</p>
+                    </div>
+                    <div class="best-seller__item">
+                        <a href="" class="best-seller__bag"><img src="img/shop-bag.svg" alt=""></a>
+                        <img src="img/product1.png" alt="">
+                        <div class="best-seller__price">
+                            <p>Regular Strength</p>
+                            <p>$22,35</p>
+                        </div>
+                        <p>Vitality Capsules</p>
+                    </div>
+                    <div class="best-seller__item">
+                        <a href="" class="best-seller__bag"><img src="img/shop-bag.svg" alt=""></a>
+                        <img src="img/product2.png" alt="">
+                        <div class="best-seller__price">
+                            <p>Extra Strength</p>
+                            <p>$36,95</p>
+                        </div>
+                        <p>Vitality Capsules</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+</div>
+</section>
+</main>
+		<footer class="footer">
+			<div class="footer__content container">
+				<div class="footer__left-wrapper">
+					<a href="index.html"><img src="img/footer-logo.svg" alt="" class="footer__logo"></a>
+					<ul class="footer__menu">
+						<h3>Explore</h3>
+						<li><a href="product.html">Products</a></li>
+						<li><a href="">Healing plans</a></li>
+						<li><a href="sunday-show.html">Sunday show</a></li>
+					</ul>
+					<ul class="footer__menu">
+						<h3>About</h3>
+						<li><a href="about-us.html">Who we are</a></li>
+						<li><a href="contact-us.html">Contact us</a></li>
+						<li><a href="product.html">Ingredients</a></li>
+					</ul>
+					<ul class="footer__menu">
+						<h3>Support</h3>
+						<li><a href="personal-info.html">Account</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="">Privacy Policy</a></li>
+					</ul>
+				</div>
+				<div class="footer__right-wrapper">
+					<h3>Subscribe</h3>
+					<p>Promotions, new products and sales. Directly to your inbox</p>
+					<div class="footer__input-wrapper">
+						<label class="footer__label">
+							<input type="email" required="required" class="footer__input">
+							<span class="footer__placeholder">Enter your Email</span>
+						</label>
+						<a href="" class="footer__button button">Join</a>
+					</div>
+				</div>
+				<div class="footer__mobile-spollers">
+					<div class="spollers-block _scr-item _spollers _one">
+						<div class="spollers-block__item">
+							<div class="spollers-block__title _spoller">Explore</div>
+							<div class="spollers-block__body">
+								<ul>
+									<li><a href="">Healing plans</a></li>
+									<li><a href="sunday-show.html">Sunday show</a></li>
+									<li><a href="products.html">Products</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="spollers-block__item">
+							<div class="spollers-block__title _spoller">About</div>
+							<div class="spollers-block__body">
+								<ul>
+									<li><a href="about-us.html">Who we are</a></li>
+									<li><a href="contact-us.html">Contact us</a></li>
+									<li><a href="product.html">Ingredients</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="spollers-block__item">
+							<div class="spollers-block__title _spoller">Support</div>
+							<div class="spollers-block__body">
+								<ul>
+									<li><a href="personal-info.html">Account</a></li>
+									<li><a href="faq.html">FAQ</a></li>
+									<li><a href="">Privacy Policy</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</footer>
+		
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="js/app.min.js?v=1.0.1"></script>
+	</div>
+</body>
+</html>
