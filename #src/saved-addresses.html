@@ -1,0 +1,88 @@
+@@include('components/general/_head.html',{
+    "title":"Saved Address"
+    })
+    <div class="wrapper">
+        <main class="page">
+            <section class="personal-info">
+                <div class="header__wrapper">
+                    <div class="container">
+                        @@include('components/general/_header.html',{})
+                    </div>
+                </div>
+                <div class="personal-info__content">
+                    @@include('components/general/_personal-menu.html',{})
+                    <div class="personal-info__right">
+                        <h2>Saved addresses</h2>
+                        <div class="personal-info__item">
+                            <p>The following addresses will be used on the checkout page by default.</p>
+                            <div class="personal-info__save-button-wrapper">
+                                <a href="#write-modal" class="personal-info-modal button personal-info__save-button" data-effect="mfp-move-horizontal">Add default address</a>
+                            </div>
+                        </div>
+                        <div class="personal-info__saved-address">
+                            <div class="personal-info__address">
+                                <h3>Shipping / Billing address</h3>
+                                <p>321 Michigan Street, Bloomfield, MI 93249. USA</p>
+                            </div>
+                            <a href="" class="personal-info__edit-address">
+                                <img src="img/edit.svg" alt="">
+                            </a>
+                            <a href="#delete-modal" class="personal-info__edit-address delete-modal" data-effect="mfp-move-horizontal logout">
+                                <img src="img/cross.svg" alt="">
+                            </a>
+                        </div>
+                        <div id="write-modal" class="mfp-hide testimonials__write-modal ">
+                            <h2>Add An Address</h2>
+                            <a class="popup-modal-dismiss close testimonials__modal-close" href="#">
+                                <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="26" cy="26" r="25.5" stroke="#56685F" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M33.6802 19.3352C33.7468 19.2685 33.7997 19.1894 33.8358 19.1022C33.8719 19.0151 33.8905 18.9217 33.8905 18.8274C33.8905 18.7331 33.8719 18.6397 33.8358 18.5526C33.7997 18.4654 33.7468 18.3863 33.6802 18.3196C33.6135 18.2529 33.5343 18.2 33.4472 18.1639C33.36 18.1278 33.2667 18.1093 33.1723 18.1093C33.078 18.1093 32.9847 18.1278 32.8975 18.1639C32.8104 18.2 32.7312 18.2529 32.6645 18.3196L25.9999 24.9856L19.3353 18.3196C19.2686 18.2529 19.1895 18.2 19.1023 18.1639C19.0152 18.1278 18.9218 18.1093 18.8275 18.1093C18.7332 18.1093 18.6398 18.1278 18.5527 18.1639C18.4656 18.2 18.3864 18.2529 18.3197 18.3196C18.253 18.3863 18.2001 18.4654 18.164 18.5526C18.128 18.6397 18.1094 18.7331 18.1094 18.8274C18.1094 18.9217 18.128 19.0151 18.164 19.1022C18.2001 19.1894 18.253 19.2685 18.3197 19.3352L24.9858 25.9998L18.3197 32.6644C18.185 32.7991 18.1094 32.9818 18.1094 33.1722C18.1094 33.3627 18.185 33.5454 18.3197 33.68C18.4544 33.8147 18.6371 33.8904 18.8275 33.8904C19.018 33.8904 19.2007 33.8147 19.3353 33.68L25.9999 27.014L32.6645 33.68C32.7992 33.8147 32.9819 33.8904 33.1723 33.8904C33.3628 33.8904 33.5455 33.8147 33.6802 33.68C33.8148 33.5454 33.8905 33.3627 33.8905 33.1722C33.8905 32.9818 33.8148 32.7991 33.6802 32.6644L27.0141 25.9998L33.6802 19.3352V19.3352Z"
+                                        fill="#56685F" />
+                                </svg>
+                            </a>
+                            <div class="input-wrapper form-input-wrapper">
+                                <label class="label">
+                                    <input type="first-name" required="required" class="input">
+                                    <span class="placeholder white-placeholder">First name</span>
+                                </label>
+                                <label class="label">
+                                    <input type="last-name" required="required" class="input">
+                                    <span class="placeholder white-placeholder">Last name</span>
+                                </label>
+                                <label class="label">
+                                    <input type="street-address" required="required" class="input">
+                                    <span class="placeholder white-placeholder">Street Address</span>
+                                </label>
+                                <label class="label">
+                                    <input type="apt" required="required" class="input">
+                                    <span class="placeholder white-placeholder">Apt. / Suite</span>
+                                </label>
+                                <label class="label">
+                                    <input type="country" required="required" class="input">
+                                    <span class="placeholder white-placeholder">Country</span>
+                                </label>
+                                <label class="label">
+                                    <input type="city" required="required" class="input">
+                                    <span class="placeholder white-placeholder">City</span>
+                                </label>
+                                <label class="label">
+                                    <input type="state" required="required" class="input">
+                                    <span class="placeholder white-placeholder">State / Provence</span>
+                                </label>
+                                <label class="label">
+                                    <input type="postal-code" required="required" class="input">
+                                    <span class="placeholder white-placeholder">ZIP / Postal Code</span>
+                                </label>
+                            </div>
+                            <div class="testimonials__modal-button-wrapper">
+                                <a href="" class="testimonials__modal-button button">Save address</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @@include('components/general/_personal-account-mobile.html',{})
+            </section>
+        </main>
+        @@include('components/general/_footer.html',{})

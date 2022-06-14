@@ -1,0 +1,39 @@
+@@include('components/general/_head.html',{
+    "title":"Personal Info"
+    })
+    <div class="wrapper">
+        <main class="page">
+            <section class="personal-info">
+                <div class="header__wrapper">
+                    <div class="container">
+                        @@include('components/general/_header.html',{})
+                    </div>
+                </div>
+                <div class="personal-info__content">
+                    @@include('components/general/_personal-menu.html',{})
+                    <div class="personal-info__right">
+                        <h2>Hello, Richard</h2>
+                        <div class="personal-info__item">
+                            <label class="label">
+                                <input type="name" required="required" class="input">
+                                <span class="placeholder white-placeholder">Full name</span>
+                            </label>
+                            <div class="personal-info__save-button-wrapper">
+                                <a href="" class="button personal-info__save-button">Save Changes</a>
+                            </div>
+                        </div>
+                        <div class="personal-info__item">
+                            <label class="label">
+                                <input type="name" required="required" class="input">
+                                <span class="placeholder white-placeholder">Full name</span>
+                            </label>
+                        </div>
+                        <div class="personal-info__item">
+                            <a href="" class="button personal-info__button">Change Password</a>
+                        </div>
+                    </div>
+                </div>
+                @@include('components/general/_personal-account-mobile.html',{})
+            </section>
+        </main>
+        @@include('components/general/_footer.html',{})
