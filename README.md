@@ -1,34 +1,34 @@
 # VitalityCycles
-#Home Page:
-https://destab1lisee.github.io/VitalityCycles/
+# Home Page: </br>
+https://destab1lisee.github.io/VitalityCycles/ </br>
 
-#Product Page: 
-https://destab1lisee.github.io/VitalityCycles/product.html
+# Product Page: </br>
+https://destab1lisee.github.io/VitalityCycles/product.html </br>
 
-#About Us Page:
-https://destab1lisee.github.io/VitalityCycles/about-us.html
+# About Us Page: </br>
+https://destab1lisee.github.io/VitalityCycles/about-us.html  </br>
 
-#Contact Us Page:
-https://destab1lisee.github.io/VitalityCycles/contact-us.html
+# Contact Us Page: </br>
+https://destab1lisee.github.io/VitalityCycles/contact-us.html </br>
 
-#Faq Page:
-https://destab1lisee.github.io/VitalityCycles/contact-us.html
+# Faq Page: </br>
+https://destab1lisee.github.io/VitalityCycles/contact-us.html </br>
 
-#Account Pages:
-https://destab1lisee.github.io/VitalityCycles/personal-info.html
-https://destab1lisee.github.io/VitalityCycles/shopping-history.html
-https://destab1lisee.github.io/VitalityCycles/saved-addresses.html
-https://destab1lisee.github.io/VitalityCycles/saved-addresses.html
+# Account Pages: </br>
+https://destab1lisee.github.io/VitalityCycles/personal-info.html </br>
+https://destab1lisee.github.io/VitalityCycles/shopping-history.html </br>
+https://destab1lisee.github.io/VitalityCycles/saved-addresses.html </br>
+https://destab1lisee.github.io/VitalityCycles/saved-addresses.html </br>
 
-#Log in/Create Account:
-https://destab1lisee.github.io/VitalityCycles/log-in.html
-https://destab1lisee.github.io/VitalityCycles/create-account.html
+# Log in/Create Account: </br>
+https://destab1lisee.github.io/VitalityCycles/log-in.html </br>
+https://destab1lisee.github.io/VitalityCycles/create-account.html </br>
 
-#Custom 404 page:
-https://destab1lisee.github.io/VitalityCycles/error-page.html
+# Custom 404 page: </br>
+https://destab1lisee.github.io/VitalityCycles/error-page.html </br>
 
-#Faq Page:
-https://destab1lisee.github.io/VitalityCycles/faq.html
+# Faq Page: </br>
+https://destab1lisee.github.io/VitalityCycles/faq.html </br>
 
-#Podcast Page:
-https://destab1lisee.github.io/VitalityCycles/sunday-show.html
+# Podcast Page: </br>
+https://destab1lisee.github.io/VitalityCycles/sunday-show.html </br>
