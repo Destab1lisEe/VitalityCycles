@@ -1,7 +1,0 @@
-@@include('files/burger-menu.js', {})
-@@include('files/spollers.js', {})
-@@include('libs/swiper.min.js', {})
-@@include('libs/jquery.magnific-popup.min.js', {})
-@@include('files/tabs.js', {})
-@@include('files/video.js', {})
-@@include('files/script.js', {})
