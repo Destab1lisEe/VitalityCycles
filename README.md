@@ -32,3 +32,6 @@ https://destab1lisee.github.io/VitalityCycles/faq.html </br>
 
 # Podcast Page: </br>
 https://destab1lisee.github.io/VitalityCycles/sunday-show.html </br>
+
+# Shop Page: </br>
+https://destab1lisee.github.io/VitalityCycles/shop.html 
